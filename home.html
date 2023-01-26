@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>TJ Star</title>
+    <meta name="description" content="">
+
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link href="index.html" rel="canonical">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#e7ebff">
+    <meta name="msapplication-TileImage" content="assets/images/favicon/apple-icon-144x144.png">
+    <meta name="theme-color" content="#3B4A95">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.Index.css">
+    <link rel="stylesheet" href="assets/css/styleIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
+
+<!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MS6EQBCRD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2MS6EQBCRD');
+    </script>
+-->
+
+<script language="JavaScript">
+      window.onload = function () {
+        document.addEventListener(
+          "contextmenu",
+          function (e) {
+            e.preventDefault();
+          },
+          false
+        );
+        document.addEventListener(
+          "keydown",
+          function (e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+              disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+              disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (
+              e.keyCode == 83 &&
+              (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)
+            ) {
+              disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+              disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+              disabledEvent(e);
+            }
+          },
+          false
+        );
+        function disabledEvent(e) {
+          if (e.stopPropagation) {
+            e.stopPropagation();
+          } else if (window.event) {
+            window.event.cancelBubble = true;
+          }
+          e.preventDefault();
+          return false;
+        }
+      };
+    </script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</head>
+
+<body class="homepage" data-spy="scroll" data-target="#category-list" data-offset="130">
+
+    <section id="mobileMenu">
+        <div class="mobile-menu-overlay"></div>
+
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-wrapper">
+                <span class="mobile-menu-close"><i class="icon-cancel"></i></span>
+                <nav class="mobile-nav">
+                    <ul class="mobile-menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="category.html">Products</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/tjstarproducts/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+                    <a href="https://www.facebook.com/Tj-Star-Products-106085782077844" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="page-wrapper">
+        <header class="header header-transparent ">
+            <div class="header-middle sticky-header">
+                <div class="container">
+                    <div class="header-left">
+                        <a href="index.html" class="logo">
+                            <img style="" src="assets/images/TJ%20Star%20Products%20Blue.png" class="logo-dark" alt="TJ Star Logo">
+                            <img src="assets/images/TJ%20Star%20Product%20White.png" class="logo-light" alt="TJ Star Logo">
+                        </a>
+                    </div>
+
+                    <div class="header-right">
+                        <nav class="main-nav">
+                            <ul class="menu sf-arrows">
+
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="category.html">Products</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+
+                            </ul>
+                        </nav>
+
+                        <button class="mobile-menu-toggler" type="button">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+       <main class="main">
+            <div class="LandingimageContainer" style="position: relative">
+                <div class="landingimgcontainer">
+                    <img src="assets/images/slider/2.png">
+                    <p class="slider-intro">Your <span class="color-green">Kids</span> learns via<br>
+                        <strong class="bolder text-uppercase">Hands on <span class="color-megenda">activities</span></strong>
+                    </p>
+                    <a class="slider-intro-a" href="about-us.html" style="border-color: #193f6d;">Know More!</a>
+                    
+                </div>
+                
+            </div>
+            
+           <div class="main-content">
+              <div class="container">
+                        <div class="col-lg-6 offset-lg-3 text-center my-4" >
+                            <h1 class="simple-title"><small>Welcome to</small><br>TJ Star Products</h1>
+                            <p><a href="category.html">Browse our products here</a></p>
+                        </div>
+                    </div>
+         <!--      <div class=" bg-blue text-center">
+                    <div class="container my-4">
+                        <div class="row">
+                            <div class="col-md-12 mt-3">
+                                <h2 class="simple-title">How to Shop</h2>
+                            </div>
+
+                            <div class="col-md-3 col-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/home/Own/1.png" alt="Browse products">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Browse products</h3>
+                                        <p class="card-text">Check out the Kids activity products in our Website.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/home/Own/2.png" alt="Connect in Whatsapp">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Chat in Whatsapp</h3>
+                                        <p class="card-text">Share about the product detail in WhatsApp chat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/home/Own/3.png" alt="Make payment">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Make payment</h3>
+                                        <p class="card-text">We will Share the provision to make payment.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/home/Own/4.png" alt="Get products">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Get products</h3>
+                                        <p class="card-text">We will courier your products to your doorstep.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+               -->
+
+                <div class="container">
+                    <h2 class="general-title">Testimonials</h2>
+
+                    <section class="testimonials">
+                        <div class="wrapper">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div id="testimonials-list" class="owl-carousel">
+                                       
+                                       <div class="item">
+                                            <div class="shadow-effect">
+                                                <img class="imgPlaceholder" src="assets/images/female_placeholder_testimonials.jpg" alt="">
+                                                <p>Was very sceptical at first to buy this book Inithai elithai karpom tamilai. But trust me guys this book is very good for children. My baby just loves it he sits all by himself seeing and sticking the pictures.</p>
+                                            </div>
+                                            <div class="testimonial-name">Ram</div>
+                                        </div>
+
+                                       <div class="item">
+                                            <div class="shadow-effect">
+                                                <img class="imgPlaceholder" src="assets/images/male_placeholder_testimonials.png" alt="">
+                                                <p>Inithai Ezhithai Karpom Tamilai busy book is a must buy for toddlers. It helps in reducing screen time and make them learn alphabets,numbers colours,shapes,part of body etc in very easy and interactive way.My 6 years enjoys learning with this book.Thank you TJ Star!</p>
+                                            </div>
+                                            <div class="testimonial-name">Sruthi</div>
+                                        </div>
+                                        
+                                        <div class="item">
+                                            <div class="shadow-effect">
+                                                <img class="imgPlaceholder" src="assets/images/female_placeholder_testimonials.jpg" alt="girl">
+                                                <p>My 6 years old son is playing for hours with this Tamil activity book. The concepts are very thoughtful. My son love learning tamil in more interactive way this book keeps him busy always.</p>
+                                            </div>
+                                            <div class="testimonial-name">Pavani</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/bootstrap.bundle.min.js"></script>
+                <script src="assets/js/plugins.min.js"></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+                <script src="assets/js/mainIndex.js"></script>
+                <script src="assets/js/cartIndex.js"></script>
+
+            </div>
+        </main>
+    </div>
+</body>
+<footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="widget widget-about">
+                                <h4 class="widget-title">About Us</h4>
+                                <p>TJ Star is about learning via hands-on-activities, inspiring and sowing the seeds in young minds to create a fondness towards education.</p>
+                                <div class="social-icons">
+                                    <a href="https://www.instagram.com/tjstarproducts/" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+                                    <a href="https://www.facebook.com/Tj-Star-Products-106085782077844" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="widget">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="widget-title">Contact Info</h4>
+                                        <ul class="contact-list">
+                                            <li>
+                                                <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel: +6598647034"> +65 9864 7034</a>, <a href="tel: +6591823974"> +65 9182 3974</a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/6598647034"> +65 9864 7034</a>, <a href="https://wa.me/6591823974"> +65 9182 3974</a>, <a href="https://wa.me/918220728495"> +91 82207 28495</a>
+
+                                            </li>
+
+                                            <li>
+                                                <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:tjstarproducts@gmail.com">tjstarproducts@gmail.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container" style="text-align: center;">
+                    <p class="footer-copyright"> 2023 &copy; TJ Star Pte Ltd | Powered by TJ Star Pte Ltd | Designed and built by <a href="https://sanjith.net" target="blank">Sanjith Sethu</a></p>
+                </div>
+            </div>
+        </footer>
+<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+<script src="assets/js/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/mainIndex.js"></script>
+<script src="assets/js/cartIndex.js"></script>
+<script src="assets/js/main.min.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/parsley.js"></script>
+
+</html>
